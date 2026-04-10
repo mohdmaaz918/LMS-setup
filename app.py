@@ -53,7 +53,7 @@ from chirp_plaid_bridge import (  # noqa: E402
     normalize_chirp_payload,
 )
 
-from openbanking_engine.config.scoring_config import PRODUCT_CONFIG, SCORING_CONFIG  # noqa: E402
+from scoring_config import PRODUCT_CONFIG, SCORING_CONFIG  # noqa: E402
 
 
 def _init_session() -> None:
