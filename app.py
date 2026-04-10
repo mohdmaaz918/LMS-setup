@@ -865,7 +865,7 @@ The bridge converts to the engine convention (**negative = credit in**, **positi
     st.markdown(
         """
 Engine-level gates include (among others) very low income stability, critical affordability issues,
-and certain risk combinations — see `openbanking_engine/config/scoring_config.py` for the live list.
+and certain risk combinations — see `scoring_config.py` for the live list.
 """
     )
 
