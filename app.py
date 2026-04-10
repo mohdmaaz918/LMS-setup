@@ -251,7 +251,7 @@ def render_upload_tab(
                 <span style="font-size: 2.5rem;">📤</span> Data Processing Engine
             </h2>
             <p style="font-size: 1.1rem; opacity: 0.8; margin-bottom: 0; font-weight: 300;">
-                Securely drop your <b>Chirp Open Banking JSON files</b> or bulk ZIP archives here. Our system will map Plaid structures to our taxonomy and execute live decisioning protocols instantly.
+                Securely drop your <b> JSON files</b> or bulk ZIP archives here.
             </p>
         </div>
         """,
