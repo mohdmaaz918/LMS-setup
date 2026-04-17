@@ -856,8 +856,6 @@ The bridge converts to the engine convention (**negative = credit in**, **positi
         f"""
 **Loan range**: £{PRODUCT_CONFIG['min_loan_amount']:,} – £{PRODUCT_CONFIG['max_loan_amount']:,}  
 **Terms**: {', '.join(str(t) for t in PRODUCT_CONFIG['available_terms'])} months  
-**Daily interest (FCA cap)**: {PRODUCT_CONFIG['daily_interest_rate']*100}% per day  
-**Total cost cap**: {PRODUCT_CONFIG['total_cost_cap']*100:.0f}%  
 """
     )
 
@@ -1089,10 +1087,6 @@ def main() -> None:
 **Loan range**: £{PRODUCT_CONFIG['min_loan_amount']:,} – £{PRODUCT_CONFIG['max_loan_amount']:,}
 
 **Terms**: {', '.join(str(t) for t in PRODUCT_CONFIG['available_terms'])} months
-
-**Interest**: {PRODUCT_CONFIG['daily_interest_rate']*100}% per day
-
-**Total cost cap**: {PRODUCT_CONFIG['total_cost_cap']*100:.0f}%
 """
         )
 
