@@ -1,12 +1,4 @@
-"""
-Chirp US Open Banking — Streamlit app mirroring the UK HCSTC Streamlit layout
-(Upload & Process, Results Dashboard, Help) while using Chirp JSON + chirp_plaid_bridge.
 
-Does not modify the UK app (app.py at repo root).
-
-Run from repository root:
-    streamlit run Chirp/app.py
-"""
 
 from __future__ import annotations
 
